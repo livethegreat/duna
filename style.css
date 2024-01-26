@@ -1,0 +1,3270 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* This ensures the image won't overflow the body */
+
+    background-color: #f8f7f3;
+   
+   
+  }
+  
+  @font-face {
+    src: url(Montserrat/Montserrat-Medium.ttf);
+    font-family: Mont-Med;
+  }
+  
+  @font-face {
+    src: url(Montserrat/Montserrat-Bold.ttf);
+    font-family: Mont-Bold;
+  }
+
+  @font-face {
+    src: url(Montserrat/Montserrat-SemiBold.ttf);
+    font-family: Mont-SemiBold;
+  }
+  
+  @font-face {
+    src: url(Montserrat/Montserrat-Regular.ttf);
+    font-family: Mont-Reg;
+  }
+  
+  @font-face {
+    src: url(Montserrat/Montserrat-Light.ttf);
+    font-family: Mont-Light;
+  }
+
+  @font-face {
+    src: url(Montserrat/Montserrat-Italic.ttf);
+    font-family: Mont-Italic;
+  }
+  
+
+  @font-face {
+    src: url(McLaren/McLaren-Regular.ttf);
+    font-family: Mc-Reg;
+  }
+
+
+  
+
+  
+  #section-1 {
+    position: relative;
+    margin-right: 5%;
+    margin-left: 5%;
+    
+  }
+
+  #op {
+    position: relative;
+    margin-right: 5%;
+    margin-left: 5%;
+    
+  }
+
+
+  #omo {
+    position: relative;
+    margin-right: 5%;
+    margin-left: 5%;
+    
+  }
+
+  #section-2 {
+    position: relative;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  #section-el {
+    position: relative;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  #section-two{
+    position: relative;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  
+ 
+
+
+  #section-4 {
+    position: relative;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  #deep {
+    position: relative;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  #section-four {
+    position: relative;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+ 
+  
+ 
+
+
+  
+
+  
+  @media only screen and (min-width: 200px) {
+
+  button{
+    cursor: pointer;
+  }
+
+    #header{
+      position: relative;
+      margin: auto;
+      width: 100%;
+      background-color: #f8f7f3;
+   
+      
+      z-index: 1;
+      
+  }
+
+ 
+
+
+  #light {
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+  }
+  
+  #light::before,
+  #light::after {
+    content: '';
+    position: absolute;
+    top: 75%;
+    left: 0;
+    right: 0;
+    height: 15px;
+   background-color: #cccccc;
+    transform: translateY(-50%);
+    z-index: -1;
+   
+ 
+  }
+
+  #diamond {
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+  }
+  
+  #diamond::before,
+  #diamond::after {
+    content: '';
+    position: absolute;
+    top: 75%;
+    left: 0;
+    right: 0;
+    height: 12px;
+   background-color: #c86561;
+    transform: translateY(-50%);
+   z-index: -1;
+ 
+  }
+
+  #shine {
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+  }
+  
+  #shine::before,
+  #shine::after {
+    content: '';
+    position: absolute;
+    top: 75%;
+    left: 0;
+    right: 0;
+    height: 15px;
+   background-color: #f8f7f3;
+    transform: translateY(-50%);
+   z-index: -1;
+ 
+  }
+  
+
+  #brighter {
+    position: relative;
+    display: inline-block;
+  z-index: 0;
+  
+    
+  }
+  
+  #brighter::before,
+  #brighter::after {
+    content: '';
+    position: absolute;
+    top: 75%;
+    left: 0;
+    right: 0;
+    height: 15px;
+   background-color: #ffe7ad;
+ z-index: -1;
+    transform: translateY(-50%);
+   
+   
+ 
+  }
+
+
+  #content-1 img{
+    width: 10%;
+    margin: 5%;
+    margin-top: 6%;
+    margin-left: 8%;
+  }
+
+ 
+  
+  a{
+      text-decoration: none;
+      color: inherit;
+      -webkit-tap-highlight-color: transparent;
+  }
+
+
+  #header ion-icon{
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    
+     font-size:10vw;
+     text-align: center;
+  
+     
+ }
+
+
+ #menu{
+   
+    
+  width: 50%;  
+  transition: width 1s;
+  float: right;
+ 
+  
+}
+
+
+/*----------------------------------------- menu ------------------------------------------------------------------*/
+
+
+#ex ion-icon{
+  position: absolute;
+ top: 25%;
+ right: 10%;
+ 
+  font-size:10vw;
+  text-align: center;
+  
+  
+}
+
+
+#burger{
+  position: absolute;
+  margin: auto;
+ 
+  background-color: #F8F9F5;
+  height: 100vh;
+  text-align: center;
+  overflow: auto;
+  width: 100%;
+
+ 
+  
+}
+
+
+#burger ul{
+  position: relative;
+  padding-top: 20%;
+  list-style: none;
+  margin: auto;
+  margin-right: 10%;
+
+}
+
+#burger li{
+  
+  font-family: Rubik-Reg;
+  margin-top: 5%;
+  
+ 
+}
+
+#scroll{
+  margin: auto;
+  height: 100vh;
+  overflow: hidden;
+ 
+  
+}
+
+
+    #section-1 {
+      margin-top: 10%;
+    }
+
+    #op {
+      margin-top: 10%;
+    }
+
+    #omo {
+      margin-top: 20%;
+    }
+
+
+    #section-3 {
+      margin-top: 20%;
+      overflow-x: hidden;
+      position: relative;
+      width: 100%;
+   
+      margin-right: 5%;
+    }
+
+
+    #section-three {
+      margin-top: 20%;
+      overflow-x: hidden;
+      position: relative;
+      width: 100%;
+   
+      margin-right: 5%;
+    }
+
+
+    #another {
+      margin-top: 5%;
+      overflow-x: hidden;
+      position: relative;
+      width: 100%;
+   
+      margin-right: 5%;
+    }
+
+
+   
+
+  
+  
+    #img img {
+    
+  
+      width: 100%;
+    
+   
+    }
+
+    #imagine img {
+    margin-top: 5%;
+  margin-left: -5%;
+      width: 110%;
+     
+    
+   
+    }
+
+    #boat img {
+    
+  
+      width: 100%;
+    
+   
+    }
+
+    #capture img {
+    
+  margin-top: 10%;
+      width: 90%;
+     margin-left: 5%;
+     margin-bottom: 10%;
+     border: solid;
+     border-width: thin;
+   
+    }
+
+
+
+    #image img {
+    
+  margin-top: 5%;
+  margin-bottom: 10%;
+  width: 100%;
+
+ 
+   
+    }
+
+    #fail img {
+    
+      margin-top: 5%;
+      margin-bottom: 10%;
+      width: 90%;
+      margin-left: 5%;
+    
+     
+       
+        }
+
+    #picture img {
+    
+      margin-top: 5%;
+      margin-bottom: 10%;
+      width: 90%;
+      margin-left: 5%;
+    
+       
+        }
+
+   
+
+    #img-3 img {
+    
+   
+      width: 100%;
+   
+    }
+
+    #img-el img {
+      margin-top: 15%;
+  
+ margin-left: 10%;
+    margin-bottom: 5%;
+    
+
+      width: 80%;
+   
+    }
+
+
+    
+    #emo img {
+      margin-top: 15%;
+  
+ margin-left: 5%;
+    margin-bottom: 10%;
+    
+
+      width: 90%;
+   
+    }
+
+    #tag img {
+      margin-top: 10%;
+  
+ margin-left: 5%;
+   
+    
+
+      width: 90%;
+   
+    }
+
+    #one img{
+      margin-left: 15%;
+      width: 70%;
+    }
+
+    #two img{
+      margin-top: 10%;
+      margin-bottom: 5%;
+      margin-left: 20%;
+      width: 60%;
+    }
+
+    #first{
+      margin-top: 5%;
+      margin-right: 5%;
+      
+    }
+
+    #hand{
+      margin-top: 5%;
+      margin-right: 5%;
+    }
+
+    #first-el{
+      margin-right: 5%;
+    }
+
+    #up{
+      z-index: 0;
+    }
+
+    #second{
+      margin-right: 0%;
+      
+    }
+
+    #second-one{
+      margin-right: 0%;
+      
+    }
+
+ 
+
+  
+    #title {
+      margin: auto;
+      width: 100%;
+      text-align: center;
+      font-size: 8vw;
+      font-family: Mont-Med;
+   
+    
+    }
+
+
+
+
+    #sec-tit {
+      margin: auto;
+      width: 100%;
+      text-align: left;
+      font-size: 7.5vw;
+      font-family: Mont-Med;
+    
+    
+    }
+
+    #matter {
+      margin: auto;
+      width: 100%;
+      text-align: left;
+      font-size: 7.5vw;
+      font-family: Mont-Med;
+    
+    
+    }
+
+    
+    #sharp {
+      margin: auto;
+      width: 100%;
+      text-align: left;
+      font-size: 7.5vw;
+      font-family: Mont-Med;
+    
+    
+    }
+
+
+    #grey {
+      margin: auto;
+      width: 100%;
+      text-align: left;
+      font-size: 6vw;
+      font-family: Mont-Med;
+    
+    
+    }
+
+    #sec-tit-1 {
+      margin: auto;
+      width: 100%;
+      text-align: center;
+      font-size: 7.5vw;
+      font-family: Mont-Med;
+    
+    
+    }
+
+
+    #craft {
+      margin: auto;
+      width: 100%;
+      text-align: center;
+      font-size: 7.5vw;
+      font-family: Mont-Med;
+      border: solid;
+      border-color: #000000;
+      border-width: thin;
+      border-left: transparent;
+      border-right: transparent;
+      border-top: transparent;
+      padding-bottom: 8%;
+    
+    
+    }
+
+
+    #sub{
+      margin: auto;
+      width: 100%;
+      text-align: left;
+      font-size: 7vw;
+      font-family: Mont-SemiBold;
+      margin-top: -10%;
+    
+    
+    }
+
+    #third{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    #you{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    #wide{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+
+    #third-three{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    #third-el{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    
+    #marg{
+      padding-left: 5%;
+      padding-right: 5%;
+     
+    }
+    #third-tit {
+      margin: auto;
+      width: 100%;
+      text-align: center;
+      font-size: 7.5vw;
+      font-family: Mont-Med;
+    
+    
+    }
+
+    #about-tit {
+      margin: auto;
+      width: 100%;
+      text-align: center;
+      font-size: 7.5vw;
+      font-family: Mont-Med;
+    
+    
+    }
+
+    #sentence{
+      font-size: 4vw;
+      font-family: Mont-Reg;
+      
+    }
+
+    #square{
+      font-size: 4vw;
+      font-family: Mont-Reg;
+      
+    }
+
+    #since{
+      font-size: 6vw;
+      font-family: Mc-Reg;
+      
+    }
+
+    #forming{
+      font-size: 4.5vw;
+      font-family: Mont-SemiBold;
+      text-align: left;
+      margin-bottom: 0;
+      margin-left: 5%;
+    }
+
+    #set{
+      text-align: center;
+      font-size: 4.5vw;
+      font-family: Mont-Reg;
+    }
+
+   
+
+
+    #section-1 button{
+      position: relative;
+      margin-top: 5%;
+      margin-bottom: 10%;
+
+      left: 10%;
+
+      background-color: white;
+      padding: 1%;
+      width: 80%;
+      border-color: black;
+     
+   
+    }
+
+
+    #section-3 button{
+      position: relative;
+      margin-top: 10%;
+      margin-bottom: 10%;
+
+      left: 20%;
+
+      background-color: white;
+      padding: 1%;
+      width: 60%;
+      border-color: black;
+      border-right-width: 5px;
+      border-bottom-width: 5px;
+   
+    }
+
+
+    #section-three button{
+      position: relative;
+      margin-top: 10%;
+      margin-bottom: 10%;
+
+      left: 20%;
+
+      background-color: white;
+      padding: 1%;
+      width: 60%;
+      border-color: black;
+      border-right-width: 5px;
+      border-bottom-width: 5px;
+   
+    }
+
+
+    #another button{
+      position: relative;
+      margin-top: 10%;
+      margin-bottom: 10%;
+
+      left: 20%;
+
+      background-color: white;
+      padding: 1%;
+      width: 60%;
+      border-color: #c86561;
+      border-right-width: 5px;
+      border-bottom-width: 5px;
+   
+    }
+
+
+
+    #third button{
+      position: relative;
+      margin-top: 10%;
+      margin-bottom: 10%;
+
+      left: 20%;
+
+      background-color: white;
+      padding: 0;
+      width: 55%;
+      border-color: black;
+      border-right-width: 5px;
+      border-bottom-width: 5px;
+      
+   
+    }
+
+
+    #third-three button{
+      position: relative;
+      margin-top: 10%;
+      margin-bottom: 10%;
+
+      left: 20%;
+
+      background-color: white;
+      padding: 0;
+      width: 55%;
+      border-color: black;
+      border-right-width: 5px;
+      border-bottom-width: 5px;
+      
+   
+    }
+
+
+    #you button{
+      position: relative;
+      margin-top: 10%;
+      margin-bottom: 10%;
+
+      left: 20%;
+
+      background-color: white;
+      padding: 0;
+      width: 55%;
+      border-color: black;
+      border-right-width: 5px;
+      border-bottom-width: 5px;
+      
+   
+    }
+
+    #wide button{
+      position: relative;
+      margin-top: 10%;
+      margin-bottom: 10%;
+
+      left: 0%;
+
+      background-color: white;
+      padding: 3%;
+   
+      width: 100%;
+      border-color: #c86561;
+      border-right-width: 5px;
+      border-bottom-width: 5px;
+      
+   
+    }
+
+
+    #third-el button{
+      position: relative;
+      margin-top: 10%;
+      margin-bottom: 10%;
+
+      left: 20%;
+
+      background-color: white;
+      padding: 0;
+      width: 55%;
+      border-color: black;
+      border-right-width: 5px;
+      border-bottom-width: 5px;
+      
+   
+    }
+
+    #character img{
+      position: absolute;
+     margin-left: 62%;
+     bottom: 34%;
+     width: 15%;
+    
+    }
+
+    #faq button{
+      position: relative;
+      margin-top: 10%;
+      margin-bottom: 10%;
+
+      left: 10%;
+      background-color: white;
+      padding: 2%;
+      width: 80%;
+      border: solid;
+      border-color: black;
+ 
+     
+     
+    }
+
+    #third button:before{
+
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      right: -4px;
+      bottom: -4px;
+      border:  solid;
+
+    }
+
+    #third-three button:before{
+
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      right: -4px;
+      bottom: -4px;
+      border:  solid;
+
+    }
+
+
+    #you button:before{
+
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      right: -4px;
+      bottom: -4px;
+      border:  solid;
+
+    }
+
+
+    #wide button:before{
+
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      right: -4px;
+      bottom: -4px;
+      border:  solid;
+      border-color: #c86561;
+
+    }
+
+
+    #third-el button:before{
+
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      right: -4px;
+      bottom: -4px;
+      border:  solid;
+
+    }
+
+    #faq button:before{
+
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      right: -4px;
+      bottom: -4px;
+      border:  solid;
+      border-top-color: #789a63;
+      border-left-color: #789a63;
+      
+
+    }
+
+
+    #section-2{
+
+      background-color: #d1d8e6;
+      margin-top: 15%;
+      padding-top: 20%;
+      padding-bottom: 20%;
+     
+      border-top-left-radius: 60% 5%;
+      border-bottom-right-radius: 60% 5%;
+   
+
+    }
+
+
+    #section-el{
+
+      background-color: #d1d8e6;
+      margin-top: 20%;
+      padding-top: 20%;
+      padding-bottom: 20%;
+     
+      border-top-left-radius: 60% 5%;
+      border-bottom-right-radius: 60% 5%;
+   
+
+    }
+
+    #section-two{
+
+      background-color: #d1d8e6;
+      margin-top: 20%;
+      padding-top: 20%;
+      padding-bottom: 20%;
+     
+      border-top-left-radius: 60% 5%;
+      border-bottom-right-radius: 60% 5%;
+   
+
+    }
+
+
+    #section-4{
+
+      background-color: #f5f5dc;
+      margin-top: 15%;
+      padding-top: 20%;
+      padding-bottom: 20%;
+     
+      border-top-left-radius: 60% 5%;
+      border-bottom-right-radius: 60% 5%;
+   
+
+    }
+
+
+    #deep{
+
+      background-color: #f5f5dc;
+      margin-top: 15%;
+      padding-top: 25%;
+      padding-bottom: 15%;
+     
+      border-top-left-radius: 60% 5%;
+      border-bottom-right-radius: 60% 5%;
+   
+
+    }
+
+    #section-four{
+
+      background-color: #f5f5dc;
+      margin-top: 15%;
+      padding-top: 20%;
+      padding-bottom: 20%;
+     
+      border-top-left-radius: 60% 5%;
+      border-bottom-right-radius: 60% 5%;
+   
+
+    }
+
+
+    #box{
+      padding-left: 5%;
+      margin-top: 20%;
+      border: solid #7180ff;
+      transform: rotate(-10deg);
+      background-color: white;
+    }
+
+
+    #group{
+      position: relative;
+    }
+
+
+
+    #group img{
+
+      position: absolute;
+      margin-top: 25%;
+      margin-left: 10%;
+
+      width: 80%;
+    }
+
+
+    #space{
+
+      margin-top: 90%;
+    }
+
+
+    #whole{
+
+      margin-top: 10%;
+    }
+
+
+   
+
+#white{
+
+  background-color: white;
+  padding: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-radius: 10%;
+}
+
+
+
+#vector img{
+  position: absolute;
+  width: 25%;
+  margin-left: 50%;
+  margin-top: 0%;
+
+}
+
+
+#dome{
+  position: absolute;
+  width: 6%;
+  margin-left: -5%;
+}
+
+
+
+#jump{
+
+  background-color: white;
+  padding: 5%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  border-radius: 10%;
+}
+
+
+#line{
+
+  background-color: white;
+  padding: 3%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-radius: 5%;
+}
+
+#line-2{
+
+  background-color: white;
+  padding: 3%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-radius: 5%;
+}
+
+
+
+
+
+#white-2{
+  margin: auto;
+  width: 70%;
+  background-color: white;
+  padding: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+ 
+  border: solid;
+ border-width: thin;
+
+}
+
+
+
+#explore{
+position: relative;
+  font-family: Mont-SemiBold;
+  font-size: 5.5vw;
+  z-index: 0;
+}
+
+
+#exploring{
+
+  font-family: Mont-SemiBold;
+  font-size: 5.5vw;
+}
+
+
+
+#member{
+
+  font-family: Mont-Reg;
+  font-size: 3vw;
+}
+
+
+#section-5{
+  margin-top: 20%;
+}
+
+#section-five{
+  margin-top: 20%;
+  margin-bottom: 25%;
+}
+
+#article{
+
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+
+#article img{
+  width: 100%;
+}
+
+#faq{
+  margin-top: 10%;
+  margin-left: 5%;
+margin-right: 5%;
+}
+
+#faq-2{
+  margin-left: 5%;
+margin-right: 5%;
+}
+
+
+#footing{
+  
+  margin: auto;
+  margin-top: 15%;
+      background-color: #ececec;
+      padding-top: 15%;
+      padding-bottom: 5%;
+      
+     
+  }
+
+  #footing p{
+    margin-left: 0;
+}
+
+#footing li{
+        
+  list-style: none;
+
+
+}
+
+#ul-2{
+  margin-top: 15%;
+ 
+}
+
+#ul-2 ion-icon{
+  font-size: 8vw;
+   margin: auto;
+   cursor: pointer;
+   color: #2c2b2b;
+ 
+}
+
+
+#rat{
+  font-size: 20vw;
+  font-family: Satisfy-Regular;
+  color: #2c2b2b;
+  margin: auto;
+  text-align: center;
+  margin-top: 20%;
+}
+
+#copy{
+  margin: auto;
+margin-top: 10%;
+margin-right: 10%;
+  border-style: solid;
+  border-width: thin;
+border-left: transparent;
+border-bottom: transparent;
+border-right: transparent;
+color: #000000;
+}
+
+#ul-3 img{
+
+  margin-left: 15%;
+  width: 70%;
+}
+
+
+#bowl{
+
+  width: 90%;
+  border-style: solid;
+  border-width: thin; 
+  margin: auto;
+  
+  margin-top: 10%;
+  padding-bottom: 10%;
+
+
+}
+
+#pad{
+  margin: 5%;
+}
+
+
+
+
+
+#bowl img{
+  width: 100%;
+
+ border-style: solid;
+ border-width: thin;
+border-left: transparent;
+border-top: transparent;
+border-right: transparent;
+
+}
+
+
+    /*-----------------------------------------------contact ----------------------------------------------*/
+
+    #contact{
+      margin: 5%;
+      margin-top: 10%;
+      
+  
+   
+   
+  }
+
+
+  #calling-el{
+      padding: 2%;
+      padding-top: 10%;
+      text-align: center;
+   padding-bottom: 10%;
+  
+   
+  }
+
+
+  #bore{
+      width: 100%;
+   
+      margin: auto;
+      margin-top: 10%;
+     
+  }
+
+
+
+  
+#names{
+width: 90%;
+display: inline;
+padding-top: 8%;
+padding-bottom: 8%;
+
+}
+
+
+
+
+#email{
+width: 90%;
+padding-top: 5%;
+padding-bottom: 5%;
+
+
+}
+
+#contact{
+margin: 5%;
+margin-top: 10%;
+
+
+
+
+}
+
+
+#label{
+
+font-size: 5vw;
+font-family: Rubik-Reg;
+
+text-align: left;
+
+margin-bottom: 0;
+margin-left: 4%;
+
+}
+
+#styling{
+width: 40%;
+position: relative;
+width: 45%;
+margin-top: 5%;
+padding-bottom: 5%;
+margin-left: 3%;
+float: left;
+
+}
+
+#check{
+margin-top: 40%;
+margin-bottom: -15%;
+}
+
+#stole{
+width: 80%;
+margin: auto;
+
+
+
+}
+
+#stole p{
+margin-left: -2%;
+}
+
+#stole select{
+margin: auto;
+padding: 5%;
+width: 80%;
+border-style: solid;
+border-width: thin;
+
+
+}
+
+#stole button{ 
+margin: auto;
+width: 80%;
+padding: 1%;
+margin-top: 15%;
+margin-bottom: 10%;
+
+margin-left: 10%;
+}
+
+
+#stole input{
+padding: 5%;
+width: 90%;
+}
+
+
+
+
+
+#styling-2{
+width: 90%;
+position: relative;
+width: 45%;
+margin-top: 5%;
+padding-bottom: 5%;
+margin-left: 3%;
+float: left;
+
+}
+
+textarea{
+max-width: 90%;
+min-width: 90%;
+padding-bottom: 10%;
+padding-top: 5%;
+border-style: solid;
+border-width: thin;
+border-color: black;
+font-size: 3.5vw;
+font-family: pops;
+}
+
+input{
+border-style: solid;
+border-width: thin;
+border-color: black;
+margin-bottom: 5%;
+font-size: 3.5vw;
+font-family: pops;
+}
+
+#submit{
+margin: auto;
+background-color: #c86561;
+border-style: none;
+cursor: pointer;
+width: 60%;
+color: white;
+margin: 5%;
+}
+
+
+.left{
+  border: solid;
+  border-color: #EBA8A1;
+  border-top: transparent;
+  border-bottom: transparent;
+  border-right: transparent;
+  padding-left: 3%;
+ }
+
+  }
+
+
+  @media only screen and (max-width: 499px) {
+
+    #arrow{
+      display: none;
+    }
+
+  }
+
+
+
+  @media only screen and (min-width: 500px) {
+
+
+
+
+
+    #header ion-icon{
+      top: 20%;
+       font-size:8vw;  
+   }
+
+   #content-1 img{
+
+    margin-top: 4%;
+
+    width: 6%;
+
+   }
+
+
+   
+/*---------------------------------------------------------------------------menu ---------------------------------------*/
+
+#ex ion-icon{
+       
+  top: 20%;
+  font-size: 8vw;
+  
+}
+
+
+#burger ul{
+  position: relative;
+  padding-top: 20%;
+  list-style: none;
+  margin: auto;
+  margin-right: 5%;
+
+}
+
+    #section-1 {
+      margin-top: 2%;
+      
+    }
+
+    #op {
+      margin-top: 5%;
+      
+    }
+
+    #omo {
+      margin-top: 10%;
+      
+    }
+
+    
+    #section-3 {
+      margin-top: 10%;
+    }
+
+
+    #section-three {
+      margin-top: 13%;
+     
+    }
+
+    
+    #another {
+      margin-top: 5%;
+     
+    }
+
+
+    #img{
+
+      width: 45%;
+      float: left;
+    }
+
+    #imagine{
+
+      width: 45%;
+      float: left;
+    }
+
+    #boat{
+
+      width: 45%;
+      float: left;
+    }
+
+    #capture{
+
+      width: 45%;
+      float: left;
+    }
+
+    #capture img{
+      margin-top: 25%;
+    }
+
+    #image{
+      margin-top: 5%;
+      width: 45%;
+      float: left;
+    }
+
+    #fail{
+      margin-top: 5%;
+      width: 45%;
+      float: left;
+    }
+
+    #picture{
+margin-top: 5%;
+      width: 45%;
+      float: left;
+    }
+
+
+    #arrow img{
+      position: absolute;
+      margin-left: 40%;
+     margin-top: -3%;
+      width: 10%;
+      transform: rotate(40deg);
+     
+    }
+
+    #down{
+
+      margin-top: 0;
+
+      width: 45%;
+      float: left;
+    }
+
+  
+
+    
+    #img-3{
+      position: relative;
+    
+
+      width: 45%;
+float: right;
+    }
+
+    #img-el{
+      position: relative;
+    
+
+      width: 45%;
+float: right;
+    }
+
+
+    #emo{
+      position: relative;
+    
+
+      width: 45%;
+float: right;
+    }
+
+    #img-el img{
+      margin-top: 5%;
+    }
+
+
+    #emo img{
+      margin-top: 15%;
+    }
+
+  
+    
+    #tag{
+      position: relative;
+    
+
+      width: 45%;
+float: right;
+    }
+
+
+   
+
+   #right{
+    width: 45%;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 10%;
+   }
+
+ 
+
+   #problem{
+    width: 45%;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+   }
+
+
+
+
+   #right-el{
+    width: 45%;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 10%;
+   }
+
+
+   
+
+
+
+   
+
+    
+
+
+    #title{
+      text-align: left;
+      font-size: 5vw;
+      
+    }
+
+    
+    #sec-tit{
+      
+      font-size: 4.5vw;
+     
+      
+    }
+
+    #matter{
+      
+      font-size: 4.5vw;
+     
+      
+    }
+
+    #sharp{
+    
+      text-align: center;
+      font-size: 4vw;
+     
+      
+    }
+
+
+    #grey{
+      font-size: 3vw;
+     
+      
+    }
+
+    #sec-tit-1{
+      font-size: 4.5vw;
+     text-align: center;
+      
+    }
+
+
+    #craft{
+      font-size: 4.5vw;
+     text-align: center;
+     padding-bottom: 5%;
+     width: 70%;
+      
+    }
+
+
+
+    #third-tit{
+      position: relative;
+      margin: auto;
+      text-align: left;
+      font-size: 4.5vw;
+      margin-left: 5%;
+     width: 50%;
+     margin-bottom: -10%;
+     padding-top: 5%;
+     
+      
+    }
+
+
+    #about-tit{
+      position: relative;
+      margin: auto;
+      text-align: left;
+      font-size: 4.5vw;
+      margin-left: 5%;
+     width: 50%;
+     margin-bottom: -10%;
+     padding-top: 5%;
+     
+      
+    }
+
+ 
+
+    #first{
+      
+margin-top: 10%;
+width: 45%;
+margin-right: 5%;
+float: right;
+    }
+
+
+    #hand{
+      
+      margin-top: 5%;
+       width: 45%;
+       margin-right: 5%;
+ float: right;
+  
+     }
+
+    #first-el{
+      
+      margin-top: 10%;
+       width: 45%;
+       margin-right: 5%;
+ float: right;
+  
+     }
+
+    #second{
+    position: relative;
+      margin-top: 0%;
+       width: 45%;
+       margin-right: 0;
+display: inline-block;
+ 
+  
+     }
+
+
+     #second-one{
+      position: relative;
+        margin-top: -40%;
+         width: 50%;
+         margin-right: 0;
+  display: inline-block;
+   
+    
+       }
+
+
+
+     #third{
+      margin-top: 10%;
+      margin-right: 50%;
+    overflow: hidden;
+  
+     }
+
+     #you{
+      margin-top: 10%;
+      margin-right: 50%;
+    overflow: hidden;
+  
+     }
+
+     
+     #wide{
+      width: 100%;
+      margin-top: 10%;
+      margin-right: 50%;
+    overflow: hidden;
+  
+     }
+
+
+     #third-three{
+      margin-top: 10%;
+      margin-right: 50%;
+    overflow: hidden;
+  
+     }
+
+     #third-el{
+      margin-top: 10%;
+     
+    overflow: hidden;
+    width: 45%;
+  
+     }
+
+
+
+    #second{
+      margin-left: 50%;
+    }
+
+
+    #second-one{
+     
+      margin-left: 50%;
+    }
+
+
+ 
+
+
+   
+
+
+    #section-1 button{
+
+      margin-top: 3%;
+      left: 5%;
+
+      padding: 0;
+
+      width: 35%;
+    }
+
+    #section-3 button{
+
+      margin-top: 3%;
+      left: 10%;
+
+      padding: 0;
+
+      width: 35%;
+    }
+
+
+    #section-three button{
+
+      margin-top: 3%;
+      left: 10%;
+
+      padding: 0;
+
+      width: 35%;
+    }
+
+
+    #another button{
+
+      margin-top: 3%;
+      left: 10%;
+
+      padding: 0;
+
+      width: 35%;
+    }
+
+
+    #third button{
+
+      margin-top: 3%;
+      left: 0%;
+
+      padding: 0;
+
+      width: 65%;
+    }
+
+    
+    #third-three button{
+
+      margin-top: 3%;
+      left: 0%;
+
+      padding: 0;
+
+      width: 70%;
+    }
+
+    #wide button{
+
+      margin-top: 3%;
+      left: 0%;
+
+      padding: 0;
+
+      width: 70%;
+    }
+
+    #third-el button{
+
+      margin-top: 3%;
+      left: 10%;
+
+      padding: 0;
+
+      width: 65%;
+    }
+
+    #faq button{
+
+      margin-top: 15%;
+      left: 25%;
+
+      padding: 0;
+
+      width: 45%;
+    }
+
+
+    #sentence{
+      
+      font-size: 2.5vw;
+    
+    }
+
+
+    #square{
+      text-align: center;
+      font-size: 2.5vw;
+    
+    }
+
+    #since{
+      font-size: 3.5vw;
+    
+    }
+
+    #forming{
+      font-size: 2.8vw;
+    
+    }
+
+
+    #set{
+      text-align: left;
+      font-size: 2.5vw;
+    
+    }
+
+
+    #section-2{
+
+ 
+      margin-top: 5%;
+      padding-top: 10%;
+      padding-bottom: 10%;
+     
+
+    }
+
+    #section-el{
+
+ 
+      margin-top: 10%;
+      padding-top: 10%;
+      padding-bottom: 10%;
+     
+
+    }
+
+
+    #section-two{
+
+ 
+      margin-top: 60%;
+      padding-top: 10%;
+      padding-bottom: 10%;
+     
+
+    }
+
+    #section-4{
+
+ 
+      margin-top: 5%;
+      padding-top: 10%;
+      padding-bottom: 10%;
+     
+
+    }
+
+
+    #deep{
+
+ 
+      margin-top: 5%;
+      padding-top: 13%;
+      padding-bottom: 5%;
+     
+
+    }
+
+    #section-four{
+
+ 
+      margin-top: 10%;
+      padding-top: 10%;
+      padding-bottom: 10%;
+     
+
+    }
+
+    #one img{
+      margin-left: 0;
+      width: 65%;
+     
+    }
+
+
+    #two img{
+      margin-top: 10%;
+      margin-bottom: 5%;
+      margin-left: 0;
+      width: 60%;
+    }
+
+   
+
+
+
+    
+    #sub{
+      margin: auto;
+      width: 100%;
+      text-align: left;
+      font-size: 4vw;
+      font-family: Mont-SemiBold;
+      margin-top: -5%;
+    
+    
+    }
+
+
+
+    #box{
+      padding-left: 5%;
+      margin-top: 70%;
+      border: solid #7180ff;
+      transform: rotate(-10deg);
+    }
+
+
+    
+    #space{
+
+      margin-top: 115%;
+      
+    }
+
+
+    #whole{
+
+      margin-top: 95%;
+      
+    }
+
+
+    #group img{
+
+      position: absolute;
+      margin-top: 80%;
+      margin-left: 5%;
+
+      width: 45%;
+    }
+
+    #line{
+      margin-top: 5%;
+      width: 25%;
+     display: inline-flex;
+     padding: 2%;
+     margin-left: 3%;
+     height: 43vw;
+    
+    
+    }
+
+    #line-2{
+      width: 25%;
+     display: inline-flex;
+     padding: 2%;
+     margin-left: 3%;
+     height: 53vw;
+    
+    
+    }
+
+    #vector img{
+      position: absolute;
+      width: 10%;
+      margin-left: 23%;
+      margin-top: 0%;
+   
+    }
+
+    #dome{
+      position: absolute;
+      width: 3%;
+      margin-left: -3%;
+    }
+  
+    #white-2{
+      display: inline-table;
+      padding: 2%;
+      margin: 2%;
+      margin-left: 4%;
+      margin-right: 0;
+     
+ width: 40%;
+ height: 35vh;
+
+    
+    }
+
+
+
+    #explore{
+
+      font-family: Mont-SemiBold;
+      font-size: 2.5vw;
+    }
+
+    #exploring{
+
+      font-family: Mont-SemiBold;
+      font-size: 2.5vw;
+    }
+
+
+    #member{
+
+      font-family: Mont-Reg;
+      font-size: 1.5vw;
+    }
+
+
+    #section-5{
+      margin-top: 15%;
+    }
+
+    #section-five{
+      margin-top: 15%;
+      margin-bottom: 15%;
+    }
+
+
+    #article{
+      margin: auto;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      width: 80%;
+    }
+
+  
+    #character img{
+      position: absolute;
+     margin-left: 58%;
+     bottom: 30.4%;
+     width: 8%;
+    
+    }
+
+    #faq{
+      margin-top: 5%;
+      margin-left: 15%;
+    margin-right: 15%;
+    }
+
+    #faq-2{
+      margin-left: 5%;
+    margin-right: 5%;
+    }
+
+
+  
+
+
+    #footing{
+     
+   margin-top: 10%;
+      padding: 2%;
+      padding-top: 5%;
+      
+  }
+
+  #ul-1{
+    display: inline-block;
+    width: 35%;
+   
+}
+
+
+    #footing ul{
+
+      margin-top: 5%;
+  
+  }
+
+
+
+  #ul-2{
+    display: inline-block;
+
+   margin-top: 2%;
+  width: 25%;
+ 
+  
+}
+
+#ul-2 ion-icon{
+  font-size: 3vw;
+  margin: auto;
+
+}
+
+
+#ul-3{
+  position: absolute;
+  margin: auto;
+ margin-top: 1%;
+  display: inline-block;
+ margin-right: 5%;
+  width: 25%;
+
+
+}
+
+
+#ul-3 img{
+
+  margin-left: 40%;
+  width: 40%;
+}
+
+
+
+#rat{
+  margin-top: 5%;
+  font-size: 5vw;
+  font-family: Satisfy-Regular;
+}
+
+
+#copy{
+  margin: auto;
+  margin-top: 0;
+  margin-right: 5%;
+
+}
+
+
+#bowl{
+  position: relative;
+  width: 60%;
+ 
+  margin-top: 5%;
+
+ 
+ height: 70vw;
+
+}
+
+
+/*-----------------------------------------------------Contact -------------------------------------------------*/
+
+
+#calling-el{
+  margin: auto;
+  overflow: hidden;
+  padding-top: 0%;
+  padding-bottom: 5%;
+  
+}
+
+
+#bore{
+  width: 90%;
+}
+
+#label{
+  margin-right: 5%;
+  font-size: 2vw;
+  
+}
+
+#contact{
+  position: relative;
+  width: 55%;
+  margin: auto;
+  
+margin-top: 3%;
+
+
+}
+
+
+input{
+
+  font-size: 1.5vw;
+
+}
+
+textarea{
+
+  font-size: 1.5vw;
+
+}
+
+
+#names{
+  
+  padding-top: 4%;
+  padding-bottom: 4%;
+  
+}
+
+
+#email{
+ 
+  padding-top: 2%;
+  padding-bottom: 2%;
+  
+
+}
+
+
+#submit{
+  
+width: 30%;
+
+}
+
+
+
+    }
+
+
+
+
+
+    @media only screen and (max-width: 999px) {
+
+      #content-2 ul{
+          display: none;
+      }
+
+    }
+
+
+
+    @media only screen and (min-width: 1000px) {
+
+      .left{
+        padding-left: 2%;
+      }
+     
+    
+#header{
+  padding: 2%;
+  margin-top: 0%;
+
+  
+}
+      
+    #header li{
+      width: 100%;
+      display: inline;
+      margin: auto;
+      margin-bottom: 0.5%;
+      padding-left: 2%;
+      padding-right: 2%;
+      overflow: hidden;
+    
+    }
+
+
+    #header li:hover{
+      border-style: solid;
+      border-left: transparent;
+      border-right: transparent;
+      border-top: transparent;
+      border-width: 0.5vw;
+      border-color: #fad988;
+      color: #2c2b2b;
+      
+      
+      background-color: transparent;
+     
+      
+     
+    }
+
+
+    #header ion-icon{
+      display: none;
+    }
+
+
+    #content-1{
+  
+      display: inline;
+      float: left;
+   
+      width: 40%;
+      
+  }
+
+
+  
+  #content-1 img{
+
+margin-top: 2.5%;
+    width: 8%;
+
+   }
+
+
+  
+  #content-2{
+       
+    display: inline; 
+    float: right;
+   margin-right: 5%;
+    width: 40%;
+    
+     
+    
+}
+
+
+#content-2 ul{
+  margin: auto;
+  margin-top: 4.5%;
+   
+}
+
+
+
+/*-------------------------------------------------------------menu ----------------------------------------------*/
+
+
+#burger{
+  display: none;
+  
+
+}
+
+
+
+      #section-1 {
+       
+        margin-top: 10%;
+        margin-right: 5%;
+        margin-left: 5%;
+      bottom: 10%;
+ 
+        
+      }
+
+
+      #op {
+       
+        margin-top: 10%;
+        margin-right: 5%;
+        margin-left: 5%;
+      bottom: 10%;
+ 
+        
+      }
+
+      #omo {
+       
+        margin-top: 6%;
+        margin-right: 5%;
+        margin-left: 5%;
+      bottom: 10%;
+ 
+        
+      }
+
+      #section-3 {
+        position: relative;
+        margin-top: 2%;
+        margin-right: 5%;
+        margin-left: 0%;
+       
+      }
+
+
+      #section-three {
+        position: relative;
+        margin-top: 7%;
+        margin-right: 5%;
+        margin-left: 0%;
+       
+      }
+
+
+      #another {
+        position: relative;
+        margin-top: 7%;
+        margin-right: 5%;
+        margin-left: 0%;
+       
+      }
+
+
+      #first{
+        margin-top: 10%;
+        margin-right: 5%;
+        
+      }
+
+      
+      #hand{
+        margin-top: 5%;
+        margin-right: 5%;
+        
+      }
+
+      #first-el{
+        margin-top: 10%;
+        margin-right: 5%;
+        width: 40%;
+        
+      }
+
+     
+
+
+      #img{
+       
+
+        width: 40%;
+        float: left;
+      }
+
+
+      #imagine{
+       
+
+        width: 40%;
+        float: left;
+      }
+
+
+      #boat{
+       
+
+        width: 40%;
+        float: left;
+      }
+
+      #img img{
+        margin-top: -5%;
+      }
+
+      #imagine img{
+        margin-top: -5%;
+      }
+
+ 
+
+
+      #capture{
+
+        width: 40%;
+        float: left;
+      }
+
+      
+      #image{
+        margin-top: 0%;
+        width: 45%;
+        float: left;
+      }
+
+      #fail{
+        margin-top: 0%;
+        width: 45%;
+        float: left;
+      }
+
+
+      #picture{
+
+        width: 45%;
+        float: left;
+      }
+
+      #picture img{
+        margin-top: -10%;
+      }
+
+
+
+      #arrow img{
+        position: absolute;
+        margin-left: 40%;
+       margin-top: -3%;
+        width: 10%;
+        transform: rotate(40deg);
+       
+      }
+
+
+      #down{
+
+        margin-top: 5%;
+
+        width: 40%;
+        float: left;
+      }
+
+      #img-3{
+        
+
+        width: 40%;
+        float: right;
+        
+      }
+
+      #img-el{
+
+        width: 50%;
+        float: right;
+        
+      }
+
+
+      
+      #emo{
+
+        width: 50%;
+        float: right;
+        
+      }
+
+
+      
+      #tag{
+
+        width: 50%;
+        float: right;
+        
+      }
+
+      #img-3 img{
+
+        margin-top: 5%;
+
+      }
+
+      #img-el img{
+
+        margin-top: 5%;
+
+      }
+
+
+      #emo img{
+
+        margin-top: 5%;
+
+      }
+
+
+
+      #tag{
+
+        margin-top: 0%;
+
+      }
+
+      #right{
+        margin-top: 7%;
+      }
+
+
+    
+
+
+      
+      #problem{
+        margin-top: 7%;
+      }
+
+   
+
+      #right-el{
+        margin-top: 3%;
+      }
+
+   
+
+
+
+      #title{
+        font-size: 3.5vw;
+        
+      }
+
+      #sec-tit{
+        font-size: 3vw;
+        
+      }
+
+      #matter{
+        font-size: 3vw;
+        
+      }
+
+
+      #sharp{
+        font-size: 2.5vw;
+        
+      }
+
+
+
+      #grey{
+        font-size: 2vw;
+        
+      }
+
+      #sec-tit-1{
+        font-size: 3vw;
+        
+      }
+
+      #craft{
+        font-size: 3vw;
+        padding-bottom: 3%;
+        
+      }
+
+
+
+   #less{
+    margin-top: 5%;
+   }
+
+      
+      #third-tit{
+      
+        text-align: left;
+        margin-left: 5%;
+        font-size: 3vw;
+        
+      }
+
+
+      #about-tit{
+        text-align: left;
+        margin-left: 5%;
+        font-size: 3vw;
+        margin-bottom: -15%;
+        
+      }
+
+
+     
+
+
+      
+
+
+
+      #section-1 button{
+        padding: 0;
+        left: 10%;
+        margin-top: 1%;
+
+        width: 25%;
+
+      }
+
+      #section-3 button{
+        padding: 0;
+
+        width: 25%;
+
+      }
+
+
+      #section-three button{
+        padding: 0;
+
+        width: 25%;
+
+      }
+
+
+      #another button{
+        padding: 0;
+
+        width: 25%;
+
+      }
+
+
+      #vector img{
+        position: absolute;
+        width: 8%;
+        margin-left: 20%;
+        margin-top: -2%;
+       
+      }
+
+      #dome{
+        position: absolute;
+        width: 2%;
+        margin-left: -2%;
+      }
+
+
+      #white-2{
+        margin: auto;
+        padding: 2%;
+        margin: 5%;
+        margin-top: 5%;
+           
+   width: 35%;
+   height: 18vw;
+
+      }
+
+      #jump{
+        margin-top: 5%;
+        padding: 2%;
+      }
+
+      #explore{
+        font-size: 2vw;
+      }
+  
+      
+#second{
+ margin-top: 0;
+ padding-top: 0;
+}
+
+
+#third-three{
+  margin-top: 15%;
+}
+      
+      #third button{
+        padding: 1%;
+
+        width: 45%;
+        margin-left: 0%;
+
+      }
+
+
+      #third-three button{
+        padding: 1%;
+
+        width: 45%;
+        margin-left: 0%;
+
+      }
+
+      #you button{
+        padding: 1%;
+
+        width: 45%;
+        margin-left: 10%;
+
+      }
+
+      #wide{
+        margin-top: 0;
+      }
+
+      #wide button{
+        padding: 1%;
+
+        width: 45%;
+        margin-left: 0%;
+
+      }
+
+      
+
+      #third-el button{
+        padding: 1%;
+
+        width: 60%;
+
+      }
+
+    
+
+      #faq button{
+        padding: 0%;
+        margin-top: 10%;
+        margin-left: 10%;
+
+        width: 30%;
+
+      }
+
+
+
+      #sentence{
+        font-size: 1.1vw;
+      
+      }
+
+      #square{
+        font-size: 1.1vw;
+      
+      }
+
+      #since{
+        font-size: 2vw;
+      
+      }
+
+      #forming{
+        font-size: 1.4vw;
+      
+      }
+
+      #set{
+        font-size: 1.6vw;
+      
+      }
+
+
+      #section-2{
+
+ 
+        margin-top: 5%;
+        padding-top: 2%;
+        padding-bottom: 13%;
+       
+  
+      }
+
+
+      #section-el{
+
+ 
+        margin-top: 15%;
+        padding-top: 0%;
+        padding-bottom: 8%;
+       
+  
+      }
+
+      #section-two{
+
+ 
+        margin-top: 55%;
+        padding-top: 4%;
+        padding-bottom: 13%;
+       
+  
+      }
+
+      #section-4{
+
+ 
+        margin-top: 0;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        overflow-x: hidden;
+       
+  
+      }
+
+
+      
+      #deep{
+
+ 
+        margin-top: 0%;
+        padding-top: 7%;
+        padding-bottom: 0%;
+        overflow-x: hidden;
+       
+  
+      }
+
+      #section-four{
+
+ 
+        margin-top: 4%;
+        padding-top: 4%;
+        padding-bottom: 5%;
+        overflow-x: hidden;
+       
+  
+      }
+
+
+      #one img{
+       
+        width: 45%;
+       
+      }
+
+
+      #two img{
+        width: 50%;
+      }
+      
+    #sub{
+      margin: auto;
+      width: 100%;
+      text-align: left;
+      font-size: 2.5vw;
+      font-family: Mont-SemiBold;
+      margin-top: -5%;
+    
+    
+    }
+
+
+
+
+
+    #box{
+      padding: 5%;
+      margin-top: 50%;
+      border: solid #7180ff;
+      transform: rotate(-10deg);
+    }
+
+
+    #space{
+
+      margin-top: 48%;
+    }
+
+    #whole{
+
+      margin-top: 48%;
+    }
+
+
+    #group img{
+
+      position: absolute;
+      margin-top: 25%;
+      margin-left: 15%;
+
+      width: 30%;
+    }
+
+    #line{
+
+      height: 10vw;
+    }
+
+    #line-2{
+      margin-top: 5%;
+      margin-bottom: 5%;
+      height: 10vw;
+    }
+
+
+    
+    #member{
+
+      font-family: Mont-Reg;
+      font-size: 1vw;
+    }
+
+
+    #section-5{
+      margin-top: 10%;
+    }
+
+    #section-five{
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+
+    #article{
+      margin-top: 10%;
+      margin-bottom: 0%;
+    }
+
+    #character img{
+      position: absolute;
+     margin-left: 55%;
+     bottom: 32%;
+     width: 5%;
+    
+    }
+
+    #faq{
+      margin-top: 3%;
+      margin-left: 20%;
+    margin-right: 20%;
+    }
+
+    #faq-2{
+      margin-left: 20%;
+    margin-right: 20%;
+    }
+
+
+
+    
+    #footing{
+     
+   
+    margin-top: 3%;
+      padding-top: 3%;
+      
+  }
+
+    
+    #ul-2 ion-icon{
+      margin: auto;
+      font-size: 2vw;
+    
+    
+  }
+
+  #rat{
+    font-size: 3vw;
+    font-family: Satisfy-Regular;
+}
+
+
+
+
+#bowl{
+  margin-top: 2%;
+  height: 35vw;
+  width: 40%;
+  
+}
+
+
+#calling-el{
+  padding-top: 0%;
+ width: 80%;
+  
+}
+
+#bore{
+  width: 90%;
+
+  margin: auto;
+  margin-top: 5%;
+ 
+}
+
+
+
+
+    }
+  
