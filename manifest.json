@@ -1,0 +1,16 @@
+{
+    "name": "Sibulele Duna",
+    "short_name": "Sibulele",
+    "description": "I provide compassionate and personalised social work services, offering counselling, advocacy, resource connection, and support to empower individuals on their unique journeys towards well-being.",
+    "start_url": "https://sibuleleduna.com",
+    "display": "standalone",
+    "background_color": "#f8f7f3",
+    "theme_color": "#ffe7ad",
+    "icons": [
+      {
+        "src": "image/favicon.svg",
+        "sizes": "163x162",
+        "type": "image/svg"
+      }
+    ]
+  }
