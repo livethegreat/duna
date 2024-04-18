@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" type="image/jpg" href="image/favicon.svg">
     <link rel="apple-touch-icon" sizes="163x162" href="image/favicon.svg">
     <link rel="manifest" href="manifest.json">
@@ -139,13 +140,17 @@
 
 <div id="img">
         <div id="box">
-            <p id="sentence" style="font-family: Mont-Bold;">At the heart of my practice lies empathy, respect, and
+            <p id="text" style="font-family: Mont-Bold;">At the heart of my practice lies empathy, respect, and
                 collaboration. Let’s build a safe and
                 supportive space where we can explore challenges and celebrate strengths.</p>
+                
         </div>
 </div>
 
-<div id="arrow"><img src="image/Arrow.svg" alt="arrow"></div>
+<div id="arrow">
+    <svg id="vector" class="motion-svg"  viewBox="0 0 142 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 16.3829C42.25 18.164 37.5909 26.9705 49.75 16.3829C59.4773 7.91278 54.0682 -1.33621 42.7045 1.53334C30.0909 7.47031 48.1591 33.487 67.7045 26.9563C87.25 20.4256 101.909 15.8881 84.2955 4.60789C66.6818 -6.67236 77.0227 30.8367 97.1364 25.1965C113.227 20.6844 131.455 16.7787 141 12.4249" stroke="#c86561"/>
+      </svg></div>
 
 
 <div id="down">
@@ -171,7 +176,7 @@
 </div>
 
 
-<div id="group"><img src="image/bro.svg" alt="group"></div>
+<div id="group"><img src="image/bro.svg" alt="group" data-aos="slide-up" data-aos-delay="1000"></div>
 
 
 
@@ -183,7 +188,7 @@
 
 
 
-   <div id="img"> <div id="white">
+   <div id="img" data-aos="fade-right"> <div id="white">
 
     <div id="vector"><img src="image/Vector.png" alt="vector"></div>
 
@@ -199,7 +204,7 @@
     </div>
    
 
-    <div id="right">
+    <div id="right" data-aos="fade-up">
    
         <p id="sec-tit">You've <span id="brighter">Empowered</span> Me to Find Inner <span id="brighter">Strength</span></p>
 
@@ -311,6 +316,11 @@
       
 
     <script src="sbuja.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 
