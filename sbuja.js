@@ -64,3 +64,67 @@ function closing() {
  
     
 }
+
+const textElement = document.getElementById('text');
+const cursorElement = document.createElement('span');
+cursorElement.id = 'cursor';
+cursorElement.textContent = '|';
+textElement.appendChild(cursorElement);
+
+let index = 0;
+const text = textElement.textContent.trim();
+textElement.textContent = '';
+
+function typeText() {
+  if (index < text.length) {
+    textElement.textContent += text.charAt(index);
+    index++;
+    setTimeout(typeText, 30); // Adjust typing speed as needed
+  } else {
+    setTimeout(startTypingAnimation, 3000); // Start typing animation again after delay
+  }
+}
+
+function startTypingAnimation() {
+  textElement.textContent = ''; // Clear text content
+  index = 0; // Reset index for typing animation
+  typeText(); // Start typing animation
+}
+
+function blinkCursor() {
+   cursorElement.style.visibility = cursorElement.style.visibility === 'hidden' ? 'visible' : 'hidden';
+ }
+ 
+ setInterval(blinkCursor, 500); // Cursor blinking interval
+
+// Start the typing animation initially
+startTypingAnimation();
+
+
+
+const svgElement = document.getElementById('vector');
+
+function isInViewport(element) {
+  const rect = element.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+function handleScroll() {
+  if (isInViewport(svgElement)) {
+    svgElement.classList.add('visible');
+  } else {
+    svgElement.classList.remove('visible');
+  }
+}
+
+window.addEventListener('scroll', handleScroll);
+
+
+
+
+
