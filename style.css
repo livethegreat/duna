@@ -686,6 +686,49 @@ line-height: 1.5;
       
     }
 
+    
+    @keyframes typing {
+      0% {
+        width: 0%;
+      }
+      50% {
+        width: 100%;
+      }
+      55% {
+        width: 100%;
+      }
+      100% {
+        width: 100%;
+      }
+    }
+    
+  
+
+    #text{
+      font-size: 4vw;
+      font-family: Mont-Reg;
+      width: 100%;
+    
+      position: relative;
+     
+    
+    }
+
+    #cursor {
+     
+  display: inline-block;
+  width: 2px;
+  height: 1.2em; /* Cursor height equal to line height */
+  background-color: black; /* Cursor color */
+  animation: blinkCursor 0.6s infinite; /* Cursor blinking animation */
+    }
+    
+    @keyframes blinkCursor {
+      50% {
+        opacity: 0;
+      }
+    }
+
     #new{
       font-size: 5vw;
     }
@@ -1132,11 +1175,24 @@ background-color: #c86561;
 
 
     #box{
+      position: relative;
       padding-left: 5%;
       margin-top: 20%;
       border: solid #7180ff;
       transform: rotate(-10deg);
       background-color: white;
+    }
+
+  
+
+    
+
+    
+  
+
+
+    .blink {
+      animation: cursor 1s infinite;
     }
 
 
@@ -1719,13 +1775,35 @@ margin-top: 5%;
     }
 
 
-    #arrow img{
+    #arrow svg{
       position: absolute;
-      margin-left: 40%;
-     margin-top: -3%;
-      width: 10%;
-      transform: rotate(40deg);
-     
+      margin-left: 30%;
+     margin-top: 10%;
+      width: 25%;
+      transform: rotate(310deg);
+      color: #c86561;
+      opacity: 1; /* Show the SVG when it's visible */
+      animation: fillsvg 3s linear forwards infinite; /* Add animation when visible */
+    }
+
+    
+    .motion-svg {
+      stroke-dasharray: 256;
+      stroke-dashoffset: 256;
+      animation: none; /* Remove initial animation */
+      opacity: 0; /* Initially hide the SVG */
+
+    }
+
+   
+
+    @keyframes fillsvg {
+      0% {
+        stroke-dashoffset: 256;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
     }
 
     #down{
@@ -2115,6 +2193,13 @@ display: inline-block;
 
 
     #sentence{
+      
+      font-size: 2.5vw;
+    
+    }
+
+    
+    #text{
       
       font-size: 2.5vw;
     
@@ -2809,14 +2894,16 @@ margin-top: 2.5%;
 
 
 
-      #arrow img{
+      #arrow svg{
         position: absolute;
-        margin-left: 40%;
-       margin-top: -3%;
-        width: 10%;
-        transform: rotate(40deg);
+        margin-left: 30%;
+       margin-top: 10%;
+        width: 25%;
+       
        
       }
+
+
 
 
       #down{
@@ -3131,6 +3218,11 @@ margin-top: 2.5%;
       
       }
 
+      #text{
+        font-size: 1.1vw;
+      
+      }
+
       #new{
         font-size: 1.4vw;
       }
@@ -3250,6 +3342,7 @@ margin-top: 2.5%;
 
 
     #box{
+      
       padding: 5%;
       margin-top: 50%;
       border: solid #7180ff;
